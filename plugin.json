@@ -2,7 +2,7 @@
     "id": "nodebb-plugin-latest-group",
     "name": "Latest Group",
     "description": "Change user's group title to the most recently joined group",
-    "url": "",
+    "url": "https://github.com/myvr/nodebb-plugin-latest-group",
     "library": "./library.js",
     "hooks": [
         {
