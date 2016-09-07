@@ -1,0 +1,14 @@
+{
+    "id": "nodebb-plugin-latest-group",
+    "name": "Latest Group",
+    "description": "Change user's group title to the most recently joined group",
+    "url": "",
+    "library": "./library.js",
+    "hooks": [
+        {
+            "hook": "action:group.join",
+            "method": "updateGroupTitle"
+        }
+    ],
+    "compatibility": "^1.1.2"
+}

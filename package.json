@@ -1,0 +1,26 @@
+{
+  "name": "nodebb-plugin-latest-group",
+  "version": "1.0.0",
+  "description": "Change user's group title to the most recently joined group",
+  "main": "library.js",
+  "repository": {
+      "type": "git",
+      "url": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "group",
+    "title",
+    "recent",
+    "latest"
+  ],
+  "author": "Danny Eiden",
+  "license": "ASL 2.0",
+  "nbbpm": {
+      "compatibility": "^1.1.2"
+  }
+}
