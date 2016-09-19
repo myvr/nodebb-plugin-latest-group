@@ -9,3 +9,4 @@ This widget has been tested on NodeBB 1.1.2
 
 ## Features
 * When a user joins a group, set the group title on the user to the group joined
+* Select "sticky" group titles that this plugin will not change
