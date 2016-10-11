@@ -36,7 +36,7 @@
                 return next(err);
             }
 
-            res.render('admin', {
+            res.render('latest-group-admin', {
                 groups: groupsData
             });
         });
