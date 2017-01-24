@@ -46,6 +46,12 @@
         var uid = joinData.uid,
             groupName = joinData.groupName;
 
+        if (groupName.indexOf(':privileges:') !== -1 ||
+            groupName === 'registered-users'
+        ) {
+            return;
+        }
+
         async.parallel({
             settings: function(next) {
                 meta.settings.get('latest-group', next);
